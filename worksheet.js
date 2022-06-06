@@ -13,6 +13,17 @@ console.log(`I've never seen a ${favoriteColorAndAnimal}`);
 
 // Learning Conditionals
 // Task 3: Meals
+// Veggie Egg Bites, Flautas, Ribs, Mashed Potatoes, and Roasted Veggies
+let timeOfDay = 1800;
+let deliciousFood = "";
+if (timeOfDay < 1200) {
+    deliciousFood = "Veggie Egg Bites";
+} else if (timeOfDay >= 1200 && timeOfDay < 1700) {
+    deliciousFood = "Flautas";
+} else if (timeOfDay >= 1700) {
+    deliciousFood = "Ribs, Mashed Potatoes, and Roasted Veggies";
+}
+console.log(deliciousFood);
 
 //Task 4: Random Number
 
