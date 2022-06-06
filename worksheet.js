@@ -1,19 +1,18 @@
-// Learning Variables
-// Task 1: Days of the Week
+// // Learning Variables
+// // Task 1: Days of the Week
 let dayOfWeek = "Monday";
 console.log(dayOfWeek);
 dayOfWeek = "Friday";
 console.log(`I can't wait for ${dayOfWeek}`);
 
-// Task 2: User Input
+// // Task 2: User Input
 let animalInput = prompt("What is your favorite animal? ");
 let colorInput = prompt("What is your favorite color? ");
 let favoriteColorAndAnimal = colorInput + " " + animalInput;
 console.log(`I've never seen a ${favoriteColorAndAnimal}`);
 
-// Learning Conditionals
-// Task 3: Meals
-// Veggie Egg Bites, Flautas, Ribs, Mashed Potatoes, and Roasted Veggies
+// // Learning Conditionals
+// // Task 3: Meals
 let timeOfDay = 1800;
 let deliciousFood = "";
 if (timeOfDay < 1200) {
@@ -25,7 +24,7 @@ if (timeOfDay < 1200) {
 }
 console.log(deliciousFood);
 
-//Task 4: Random Number
+// //Task 4: Random Number
 let randomNumber = Math.floor(Math.random() * 11);
 if (randomNumber >= 0 && randomNumber <= 2) {
     console.log("Beatles");
@@ -39,5 +38,33 @@ if (randomNumber >= 0 && randomNumber <= 2) {
 
 // Learning Loops
 // Task 5: For Loop
+for (let index = 0; index < 7; index++) {
+    console.log("JavaScript is cool!");
+}
+
+for (let counter = 0; counter < 11; counter++) {
+    console.log(counter);
+}
+
+for (let index = 0; index < 5; index++) {
+    console.log("hello");
+    console.log("goodbye");
+}
+
+// I wanted to test out this boolean method of solving the above problem.
+// Is more complex, but I think there could be uses where this might be useful.
+// Mostly I just wanted to see if it was doable using booleans and conditionals
+let greetingHello = "hello";
+let greetingGoodbye = "goodbye";
+let greetingSelection = true;
+for (let index = 0; index < 10; index++) {
+    if (greetingSelection) {
+        console.log(greetingHello);
+        greetingSelection = !greetingSelection;
+    } else if (greetingSelection === false) {
+        console.log(greetingGoodbye);
+        greetingSelection = !greetingSelection;
+    }
+}
 
 // Task 6: While Loop
