@@ -6,6 +6,10 @@ dayOfWeek = "Friday";
 console.log(`I can't wait for ${dayOfWeek}`);
 
 // Task 2: User Input
+let animalInput = prompt("What is your favorite animal? ");
+let colorInput = prompt("What is your favorite color? ");
+let favoriteColorAndAnimal = colorInput + " " + animalInput;
+console.log(`I've never seen a ${favoriteColorAndAnimal}`);
 
 // Learning Conditionals
 // Task 3: Meals
