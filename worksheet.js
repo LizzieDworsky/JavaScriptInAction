@@ -1,28 +1,9 @@
-// Task 6: While Loop
-let isInstructorAwesome = true;
-while (isInstructorAwesome) {
-    console.log(isInstructorAwesome);
-    isInstructorAwesome = !isInstructorAwesome;
-}
+// Task 8: Arrays
+let desktopItems = ["monitor", "microphone", "keyboard"];
+console.log(desktopItems[1]);
 
-// Task 7: Functions
-function printMovieName() {
-    let favoriteMovie = "Pride and Prejudice";
-    console.log(favoriteMovie);
-}
-printMovieName();
+desktopItems.push("Infinity Gauntlet");
 
-function userFavoriteBand() {
-    result = prompt("Please enter your favorite band: ");
-    return result;
+for (let index = 0; index < desktopItems.length; index++) {
+    console.log(desktopItems[index]);
 }
-let userFavBand = userFavoriteBand();
-console.log(userFavBand);
-
-function concertDisplay(musicalAct) {
-    myStreet = prompt("Please enter the street you live on: ");
-    console.log(
-        `It would be great if ${musicalAct} played a show on ${myStreet}`
-    );
-}
-concertDisplay(userFavBand);
