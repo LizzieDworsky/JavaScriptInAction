@@ -26,6 +26,16 @@ if (timeOfDay < 1200) {
 console.log(deliciousFood);
 
 //Task 4: Random Number
+let randomNumber = Math.floor(Math.random() * 11);
+if (randomNumber >= 0 && randomNumber <= 2) {
+    console.log("Beatles");
+} else if (randomNumber >= 3 && randomNumber <= 5) {
+    console.log("Stones");
+} else if (randomNumber >= 6 && randomNumber <= 8) {
+    console.log("Floyd");
+} else if (randomNumber === 9 || randomNumber === 10) {
+    console.log("Hendrix");
+}
 
 // Learning Loops
 // Task 5: For Loop
